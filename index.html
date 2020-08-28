@@ -24,9 +24,44 @@ footer {
   font-family:Courier New;
   color:navy
 }
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color:navy
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family:Courier New;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+body {
+  padding-top: 60px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
 </style>
 </head>
 <body style="background-color:black;">
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="fungi.html">Fungi</a>
+</div>
 
 <div class="myDiv" style="width:80%;">
   <h2>The journey</h2>
