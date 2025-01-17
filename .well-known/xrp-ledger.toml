@@ -1,11 +1,11 @@
 # xrp-ledger.toml
 
-[METADATA]
-version = 1.0.0
-network = "mainnet"
 
-[VALIDATORS]
-nHDUEqKWjnfRJCVB8yGm6xjhyq9BTiNUdHaaeVjNHmX1Jvdr3KFF = "Smoky Drip"
 
-[DOMAIN_VERIFICATION]
+[[VALIDATORS]]
+public_key = "nHDUEqKWjnfRJCVB8yGm6xjhyq9BTiNUdHaaeVjNHmX1Jvdr3KFF"
 attestation = "8E04EB490C9BF43DA3530D5656D7E3D30071C7EEBDFC526413414A244E2F3183193045A3E571FE925C159FC16622C12201A4DF68859F86E3C6656B6335D82100"
+network = "main"
+owner_country = "us"
+server_country = "us"
+unl = "https://vl.ripple.com"
